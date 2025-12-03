@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"  
+
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir --css", 
-    /* The --css flag forces the CSS dependency check */
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
