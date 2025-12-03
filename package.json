@@ -1,11 +1,9 @@
-"{
+{
   "name": "isabela-portfolio",
   "private": true,
   "version": "0.0.0",
   "engines": {
-    "node": "20.x"  
-    /* Node 20 is more stable than 24 for older dependencies.
-       Let's use 20.x here to be safe, even if Vercel suggests 24. */
+    "node": "18.x"
   },
   "type": "module",
   "scripts": {
