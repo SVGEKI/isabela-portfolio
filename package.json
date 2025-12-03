@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 {"name": "isabela-portfolio",
   "private": true,
   "version": "0.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
-  "type": "module",
+=======
+{
+  "name": "isabela-portfolio",
+  "private": true,
+  "version": "0.0.0",
+>>>>>>> 8a6d618f3c492955addfec3155f863eb3cc54b8c
+e": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
