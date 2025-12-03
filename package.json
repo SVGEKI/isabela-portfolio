@@ -1,21 +1,18 @@
-<<<<<<< HEAD
-{"name": "isabela-portfolio",
-  "private": true,
-  "version": "0.0.0",
-  "engines": {
-    "node": "24.x"
-  },
-=======
-{
+"{
   "name": "isabela-portfolio",
   "private": true,
   "version": "0.0.0",
->>>>>>> 8a6d618f3c492955addfec3155f863eb3cc54b8c
-e": "module",
+  "engines": {
+    "node": "20.x"  
+    /* Node 20 is more stable than 24 for older dependencies.
+       Let's use 20.x here to be safe, even if Vercel suggests 24. */
+  },
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
+    "build": "vite build --emptyOutDir --css", 
+    /* The --css flag forces the CSS dependency check */
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
   "dependencies": {
